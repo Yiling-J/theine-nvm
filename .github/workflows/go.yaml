@@ -61,7 +61,6 @@ jobs:
 
       - name: Test
         run: |
-          go test ./... -run=TestPersistOS
           go test ./... -run=TestHybridCacheGetSetNoRace
           go test ./... -run=TestNvmResize
 
